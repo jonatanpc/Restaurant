@@ -48,10 +48,11 @@ font-family: 'Poppins', sans-serif;
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
+    /* Do you want that anchor tag has this color on smaller screen size or bigger ones? */
     color: #303030;
     display: block;
     font-weight: 600;
-    }
+}
 
 #menu{
     display: none;
@@ -334,15 +335,14 @@ hr {
 .socials img{
     margin-right: 15px;
 }
-
+/* Why did you affect to whole the anchor tags?*/
 a {
     font-size: 16px;
     display: block;
     margin-bottom: 10px;
     color: #545454;
-
 } 
-
+/* Could you explain me how the media querie is working and why? */
 @media(max-width: 991px){
     .menu {
         padding: 30px;
@@ -367,7 +367,7 @@ a {
     .menu .navbar ul li a:hover{
         color: #bebebe;
     }
-
+    /* Do you know how this rule is working? */
     #menu:checked ~ .navbar {
         display: initial;
 
