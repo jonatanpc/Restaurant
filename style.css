@@ -358,12 +358,16 @@ a {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #a07474;
+        background-color: #303030;
         display: none;
     }
 
     .menu .navbar ul li {
         width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        color: #ffffff;
     }
 
     .menu .navbar ul li a:hover{
