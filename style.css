@@ -358,7 +358,7 @@ a {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #303030;
+        background-color: #a07474;
         display: none;
     }
 
@@ -371,7 +371,7 @@ a {
     }
 
     #menu:checked ~ .navbar {
-        display: none;
+        display: initial;
 
     }
 
