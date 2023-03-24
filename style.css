@@ -57,6 +57,7 @@ font-family: 'Poppins', sans-serif;
     display: none;
 }
 
+
 .menu-icono {
     width: 25px;
 
@@ -64,6 +65,7 @@ font-family: 'Poppins', sans-serif;
 
 .menu label {
     cursor: pointer;
+    display: none;
     
 }
 
@@ -369,7 +371,7 @@ a {
     }
 
     #menu:checked ~ .navbar {
-        display: initial;
+        display: none;
 
     }
 
